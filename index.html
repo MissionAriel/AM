@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*
+        
+        Small devices( tablets and phones,1346px and down)@media only screen and (min-width:1346px){...}
+        Large devices(laptop/dekstop,1346px and up)@media only screen and (min-width:1346px){...}*/
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(17, 150px);
+        }
+
+        /*Small devices( tablets and phones,1346px and down)*/
+
+        .navbar {
+            grid-column: 1/11;
+            grid-row: 1/2;
+            text-align: center;
+        }
+
+        .photo {
+            grid-column: 1/11;
+            grid-row: 2/5;
+        }
+
+        .main {
+            grid-column: 1/11;
+            grid-row: 5/8;
+
+        }
+
+        .intro {
+            color: yellow;
+            grid-column: 1/11;
+            grid-row: 8/9;
+        }
+
+        .skills {
+            color: blueviolet;
+            grid-column: 1/11;
+            grid-row: 9/11;
+        }
+
+        .hobbies {
+            background-color: orange;
+            grid-column: 1/11;
+            grid-row: 11/13;
+        }
+
+        .EducBack {
+            background-color: rgb(229, 20, 159);
+            grid-column: 1/11;
+            grid-row: 13/15;
+        }
+
+        .FPandG {
+            background-color: yellow;
+            grid-column: 1/11;
+            grid-row: 15/16;
+        }
+
+
+
+        /*Large devices(laptop/dekstop,1346px and up)*/
+
+        @media only screen and (min-width: 1346px) {
+        
+            .navbar {
+
+                grid-column: 5/6;
+                grid-row: 1/2;
+                text-align: center;
+            }
+
+            .photo {
+                grid-column: 1/3;
+                grid-row: 2/5;
+
+            }
+
+            .main {
+                color: rgb(201, 49, 49);
+                grid-column: 3/5;
+                grid-row: 2/5;
+
+
+
+            }
+
+            .intro {
+                color: rgb(237, 129, 5);
+                grid-column: 5/8;
+                grid-row: 2/5;
+
+            }
+
+            .skills {
+                
+                grid-column: 8/11;
+                grid-row: 2/4;
+
+            }
+
+            .hobbies {
+                background-color: orange;
+                grid-column: 5/8;
+                grid-row: 5/8;
+            }
+
+            .EducBack {
+                background-color: rgb(229, 20, 159);
+                grid-column: 1/5;
+                grid-row: 5/8;
+            }
+
+            .FPandG {
+                background-color: yellow;
+                grid-column: 8/11;
+                grid-row: 5/8;
+               
+            }
+
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>WELCOME!</h1>
+        </div>
+
+        <div class="photo">
+
+            <img src="image.jpg" width="250px" height="380px">
+        </div>
+
+        <div class="main">
+            <h1>Personal Details!</h1>
+            <p>Name: Mission, Ariel M.</p>
+            <p>DateofBirth: July 24,2000</p>
+            <p>Age: 23 Years Old</p>
+            <p>Gender: Male</p>
+            <p>Address: Phase3. Sitio.Overflow,Brgy.Hilamonan Kab. City Neg. Occ.</p>
+            <p>Contact #: 09936416853</p>
+            <p> Religion: Catholic</p>
+        </div>
+
+        <div class="intro">
+            <h1>Short Introduction</h1>
+            <p>
+                Hi! I'm Ariel M. Mission 23 years of age,I live in Phase3. Sitio.Overflow Brgy.Hilamonan Kab. City Neg.
+                Occ. I am Currently studying at Central Philippine State University Main Campus,
+                taking up the Bachelor of Science in Information Technology.My Motto in life "Work hard in silence,let
+                your Success make the noise!".
+            </p>
+        </div>
+
+        <ol class="skills">
+            <h1>Skill's</h1>
+            <li>Basketball</li>
+            <li>Volleyball</li>
+            <li>Welding</li>
+            <li>GameClub-Crossfire</li>
+            <li>Cooking</li>
+        </ol>
+
+        <ul class="hobbies">
+
+            <h1>Hobbies</h1>
+            <li>Playing Basketball</li>
+            <li>Sleeping</li>
+            <li>Eating</li>
+            <li>Watching Videos on FB</li>
+            <li>Watching Tiktok</li>
+            <li>Chatting With my BebeLabs.haha</li>
+
+        </ul>
+
+        <div class="EducBack">
+            <h1>EDUCATIONAL BACKGROUND</h1>
+            <p>Elementary Education: D.C Gurrucharri Memorial School (S.Y 2012-2013)</p>
+            <p>Junior High School: Kabankakalan National High School (S.Y 2016-2017)</p>
+            <p>Vocational Course: SMAW NC1 (2017)</p>
+            <p>Senior High School: Florentio Galang Senior National High School (S.Y 2019-2020)</p>
+            <p>College: Currently I'm Studying in Central Philippine State University Main Campus</p>
+        </div>
+
+        <div class="FPandG">
+            <h1>Future Plans or Goals!</h1>
+
+            <p>My Goals in life, I want to be successful someday and Find a Job that related to my course.
+                I want to pay back all of the sacrifices,hardwork,effort of my family,
+                specialy to my mother and to my (father)but sad to say his gone.</p>
+
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
